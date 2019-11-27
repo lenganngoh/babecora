@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="@string/str_connect_msg"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ListView
+        android:id="@+id/listBtDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNotice" />
+
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNotice"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="@string/str_no_paired_devices"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+</RelativeLayout>

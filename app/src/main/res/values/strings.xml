@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BABE CORA</string>
+    <string name="str_play_warning">Play Warning</string>
+    <string name="str_connect_bluetooth">Connect Bluetooth</string>
+    <string name="str_connect_msg">You are not connected to a bluetooth device. Press Connect and find the arduino device you want to connect to.</string>
+    <string name="str_no_paired_devices">No Paired Devices</string>
+</resources>
